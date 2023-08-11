@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GameVerse</title>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/contacto.css">
+  <link rel="stylesheet" href="../css/navbar.css">
+  <link rel="stylesheet" href="../css/footer.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">GameVerse</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./login.html">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./registro.html">Registro</a>
+                    </li>
+                </ul>
+                <span class="navbar-text about-us">
+                    <button class="about-h2">
+                        <a href="../index.html">
+                            <img class="img-nav" src="../img/img-nav.png" alt="">
+                        </a>
+                    </button>
+                </span>
+            </div>
+        </div>
+    </nav>
+</header>
+
+
+  <!----------------------------------------------------------------------------------------------------------->
+  <main>
+    <div class="div-padre-form">
+      <fieldset>
+        <div class="leyenda">
+
+            <span>
+              <legend><strong style="font-size: 2rem;">Contactanos</strong></legend>
+            </span>
+
+        </div>
+
+        <!-- Formulario de contactenos -->
+
+        <div class="div-form">
+          <form action="mailto:spectormariano1@gmail.com" method="get" onsubmit="botonAlerta()">
+            
+              <input class="formulario-texto" type="text" id="nombre" name="nombre" placeholder="Nombre" required
+              maxlength="50" />
+            
+            <br>
+            
+            <input class="formulario-texto" type="email" id="email" name="correoElectronico" required
+            pattern="[^ @]*@[^ @]+\.[a-zA-Z]{2,}" title="Ingrese un correo valido ejemplo: <EMAIL>"
+              placeholder="Correo electronico" />
+              
+          <br>
+          
+          <input class="formulario-texto" type="tel" id="telefono" name="numeroTelefono" minlength="
+          9" maxlenght="12" required placeholder="Numero telefonico" />
+          
+          <br><br>
+          <div class="text-area">
+            <textarea rows="7" cols="50" id="mensaje" name="mensaje" placeholder="    Escribe tu mensaje aqui... (Opcional)"></textarea>
+          </div>
+
+          <button class="boton-contacto">
+            Enviar
+          </button>
+        </form>
+      </div>
+
+      </fieldset>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 footer footer_redes text-center">
+          <h5 class="titulo_redes">Seguinos en</h5>
+          <div class="iconos_redes">
+            <a href="https://www.instagram.com/" target="_blank"><i class='icono bx bxl-instagram'></i></a>
+            <a href="https://www.facebook.com/" target="_blank"><i class='icono bx bxl-facebook'></i></a>
+            <a href="https://twitter.com/home" target="_blank"><i class='icono bx bxl-twitter'></i></a>
+            <a href="https://www.youtube.com/" target="_blank"><i class='icono bx bxl-youtube'></i></a>
+            <a href="./paginas/error404.html" target="_blank"><i class='icono bx bxl-whatsapp'></i></a>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 footer_info text-center">
+          <h5 class="titulo_info">Mas contenido</h5>
+          <ul class="lista-footer">
+            <li><a href="./aboutUs.html" class="item-footer">Acerca de nosotros</a></li>
+            <li><a href="#" class="item-footer">Contacto</a></li>
+            <li><a href="./error404.html" class="item-footer">Términos y condiciones</a></li>
+          </ul>
+        </div>
+        <div class="col-12 derechos">
+          <span>
+            &copy;2023, GameSquad. All right reserved.
+          </span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+    crossorigin="anonymous">
+</script>
+<script src="../js/contacto.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+footer {
+    width: 100vw;
+    bottom: 0;
+    margin-top: 80px;
+}
+
+#footer-id{
+    position: absolute;
+}
+
+.footer_redes {
+    padding: 15px 50px;
+    height: 150px;
+    background-color: rgba(106,106,106,1);
+}
+
+.titulo_redes{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer_info {
+    padding: 15px 50px;
+    background-color: rgb(76, 76, 76);
+    height: 150px;
+}
+
+.derechos{
+    background-color: black;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo_info{
+    font-weight: bold;
+}
+
+span{
+    color: white;
+}
+
+footer a{
+    text-decoration: none; 
+}
+
+footer .icono:hover , footer .icono:focus{
+    color: rgb(35, 167, 209);
+    transition: .3s ease-in-out;
+    transform: scale(1.2);
+}
+
+footer .item-footer:hover , footer .item-footer:focus{
+    color: rgb(35, 167, 209);
+    transition: .3s ease-in-out;
+}
+
+.icono{
+    font-size: 30px;
+    color: white;
+}
+
+.lista-footer li{
+    list-style-type: none;
+    margin-left: -35px;
+}
+
+.lista-footer li a{
+    color: white;
+    font-weight: 600;
+}
+
+@media (max-width: 700px) {
+    .footer_redes {
+        height: 100px;
+        padding: 8px 30px;
+    }
+
+    .footer_info {
+        height: 100px;
+        padding: 8px 30px;
+    }
+    .derechos{
+        height: 15px;
+        font-size: x-small;
+    }
+    .titulo_redes{
+        font-size: small;
+    }
+    .titulo_info{
+        font-size: small;
+    }
+    footer{
+        margin-top: 40px;
+    }
+    .icono{
+        font-size: 20px;
+    }
+    .item-footer{
+        font-size: 10px;
+    }
+    .footer_info ul{
+        line-height: 17px;
+    }
+}

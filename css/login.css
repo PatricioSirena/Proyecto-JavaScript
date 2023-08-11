@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(26, 26, 75, 0.815);
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+.bg {
+    background-image: url(../img/login/juego-de-guardianes-de-la-galaxia-8279.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    background-color: grey;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-family: 'Mukta', sans-serif;
+}
+
+.btn {
+    border-color: white;
+    background-color: #001848;
+}
+
+
+.btn:hover {
+    background-color: rgb(35, 167, 209);
+}
+
+.my-3 a {
+    color: white;
+
+}
+
+.my-3 a:hover {
+    color: brown;
+
+}
+
+* {
+    font-weight: bold;
+}
+
+
+.about-h2 {
+    margin-right: 20px;
+    background-color: transparent;
+    border: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.sobreNos {
+    text-decoration: none;
+}
+
+
+@media (max-width: 700px) {
+    .navbar-brand {
+        font-weight: 550;
+        font-size: 0.4cm;
+    }
+}

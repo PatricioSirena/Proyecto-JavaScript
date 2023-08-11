@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(26, 26, 75, 0.815);
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+.box1 {
+    list-style: none;
+    padding: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.color1 {
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.imagen_carrusel {
+    object-fit: contain;
+    width: 200px;
+    height: 200px;
+}
+
+
+
+@media (max-width:429px) {
+    .card-title {
+        font-size: large !important;
+    }
+
+    .card-text {
+        font-size: xx-small !important;
+        width: 75% !important;
+    }
+
+    .card-tx {
+        font-size: xx-small !important;
+        bottom: 5px;
+        left: 15px;
+    }
+
+    h1 {
+        font-size: medium;
+    }
+
+    #item {
+        padding: 5% !important;
+
+    }
+
+    .btn-secondary {
+        width: 100px;
+        height: 30px;
+        font-size: 15px;
+
+    }
+
+    .btn-text {
+        margin-top: -15px !important;
+        display: flex;
+        justify-content: start;
+
+
+    }
+}
+
+@media (min-width:430px) and (max-width: 1024px) {
+    .card-title {
+        font-size: xx-large;
+    }
+
+    .card-text {
+        font-size: medium;
+    }
+
+    .card-tx {
+        text-align: start;
+        bottom: 15px;
+        left: 15px;
+    }
+
+    #item {
+        padding: 5% !important;
+    }
+
+    .btn-text {
+        display: flex;
+        justify-content: start;
+    }
+
+    .btn-secondary {
+        width: 200px;
+    }
+}
+
+@media (min-width: 1025px) {
+    .card-title {
+        font-size: 80px;
+    }
+
+    .card-text {
+        font-size: xx-large;
+        margin-top: 50px;
+    }
+
+    .card-tx {
+        font-size: x-large;
+        text-align: start;
+        bottom: 15px;
+        left: 15px;
+    }
+
+    .btn-text {
+        display: flex;
+        justify-content: start;
+
+    }
+
+    .btn-secondary {
+        width: 200px;
+    }
+}
+
+@media (max-width: 700px) {
+    .navbar-brand {
+        font-weight: 550;
+        font-size: 0.4cm;
+    }
+}

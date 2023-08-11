@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+
+.card{
+    width: 200px;
+    height: 650px;
+}
+
+.tarjeta{
+    margin: 0px 20px;
+}
+
+.img-nosotros{
+    width: auto;
+    height: 360px;
+}
+
+.about-us-card{
+    max-height: 400px!important;
+    min-height: 400px!important;
+    height: 400px!important;
+    display: flex;
+    justify-content: center;
+}
+
+h4{
+    font-size: large;
+    margin-top: -35px;
+}
+
+.card-text{
+    font-size: small;
+}
+
+@media (max-width: 800px){
+    .tarjeta{
+        margin: 20px 20px;
+    }
+    .card-text{
+        margin: 10px;
+    }
+}
+
+@media (max-width: 450px){
+    .tarjeta{
+        display: flex;
+        justify-content: center;
+    }
+}

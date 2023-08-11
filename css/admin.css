@@ -1,0 +1,183 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(26, 26, 75, 0.815);
+    font-family: sans-serif, Arial, Helvetica;
+    overflow-x: hidden;
+}
+
+main {
+    font-size: large;
+    min-height: calc(100vh - (150px + 130px));
+}
+
+.btn{
+    margin-top: 45px;
+    margin-left: 1071px;
+    background-color:  rgba(106, 106, 106, 1);
+}
+
+#btnAgregar, #btnActualizar{
+    background-color: rgb(35, 167, 209);
+}
+
+#btnAgregar:hover, #btnActualizar:hover{
+    background-color:  rgba(106, 106, 106, 1);
+}
+
+.btn:hover{
+    background-color: rgb(35, 167, 209);
+}
+
+#btnCerrar{
+    background-color: rgba(106, 106, 106, 1);
+}
+
+#btnCerrar:hover{
+    background-color: rgb(35, 167, 209);
+}
+
+.btn-modal{
+    margin: auto;
+}
+
+#btnActualizar{
+    display: none;
+}
+
+.data-table {
+    font-size: .85em;
+    border: 1px solid rgba(181, 213, 144, 0.5);
+    color: #838383;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 45px;
+}
+
+.data-table td,
+.data-table th {
+    padding: .8em;
+    border-bottom: 1px solid rgba(181, 213, 144, 0.5);
+}
+
+.data-table th {
+    background: rgb(35, 167, 209);
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+}
+
+.data-table td {
+    text-align: center;
+}
+
+.data-table td:first-of-type {
+    text-align: left;
+}
+
+.data-table tr:hover {
+    background: rgba(0, 0, 0, 0.493);
+}
+
+.data-table tr td:nth-child(2n) {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+.data-table {
+    min-width: 900px;
+}
+
+.data-table td:first-child {
+    position: relative absolute ;
+    background: #494949;
+    width: 8em;
+}
+
+.data-table th:first-child {
+    width: 8em;
+}
+
+.data-table tr:hover td:first-child {
+    background: rgb(35, 167, 209);
+    color: #000000;
+}
+
+@media (max-width: 1200px){
+    .btn{
+        margin-top: 50px;
+        margin-left: 830px;
+    }
+    .btn-modal{
+        margin: auto;
+    }
+}
+
+@media (max-width: 1000px){
+    .data-table{
+        margin-top: 30px;
+    }
+    .btn{
+        margin-top: 30px;
+        margin-left: 600px;
+    }
+    .btn-modal{
+        margin: auto;
+    }
+}
+
+
+@media (max-width: 700px){
+    .btn{
+        font-size: small;
+        margin-top: 30px;
+        margin-left: 190px;
+    }
+    .btn-modal{
+        margin: auto;
+    }
+}
+
+@media (max-width: 450px){
+    .btn{
+        font-size: x-small;
+        margin-top: 30px;
+        margin-left: 310px;
+    }
+    .btn-modal{
+        margin: auto;
+    }
+}
+
+@media (max-width: 400px){
+    .btn{
+        font-size: x-small;
+        margin-top: 30px;
+        margin-left: 260px;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .btn-modal{
+        margin: auto;
+    }
+}
+
+@media (max-width: 350px){
+    .btn{
+        font-size: x-small;
+        margin-top: 30px;
+        margin-left: 210px;
+    }
+    .btn-modal{
+        margin: auto;
+    }   
+}
